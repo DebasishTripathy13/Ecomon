@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Verdleaf Development Assistant",
+  "description": "Monitors the Verdleaf project files and provides AI assistance for building the eco-verification app with Gemini Vision, Solana NFTs, and sustainable impact tracking features",
+  "version": "1",
+  "when": {
+    "type": "sessionStart"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "You are now working on Verdleaf - an AI-Verified Eco-Companion on Solana that transforms climate action into verifiable rewards. The project uses: Gemini Vision AI for photo verification (95% accuracy), Solana Compressed NFTs for dynamic EcoMon evolution, Next.js 14 for frontend, PostgreSQL/Supabase for backend, and includes a marketplace for eco-products. Key features: AI verification of eco-actions, evolving NFT companions (Sproutling→Gaiabloom), EcoPoints rewards system, leaderboards, and streak mechanics. Help the user build features, debug issues, optimize AI prompts, implement Web3 integrations, and scale this sustainable impact platform."
+  }
+}
